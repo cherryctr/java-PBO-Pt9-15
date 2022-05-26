@@ -118,12 +118,13 @@
     <Component class="javax.swing.JComboBox" name="coderoom">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="5">
-            <StringItem index="0" value="Mawar Basic - 001"/>
-            <StringItem index="1" value="Mawar Economy - 002"/>
-            <StringItem index="2" value="Mawar Vip - 003"/>
-            <StringItem index="3" value="Mawar V-Vip - 004"/>
-            <StringItem index="4" value="Mawar Extra V-Vip - 005"/>
+          <StringArray count="6">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Mawar Basic - 001"/>
+            <StringItem index="2" value="Mawar Economy - 002"/>
+            <StringItem index="3" value="Mawar Vip - 003"/>
+            <StringItem index="4" value="Mawar V-Vip - 004"/>
+            <StringItem index="5" value="Mawar Extra V-Vip - 005"/>
           </StringArray>
         </Property>
       </Properties>

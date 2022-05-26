@@ -89,7 +89,7 @@ public class FormJavaPbo extends javax.swing.JFrame {
         });
         getContentPane().add(jumlah_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 310, 220, 30));
 
-        coderoom.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mawar Basic - 001", "Mawar Economy - 002", "Mawar Vip - 003", "Mawar V-Vip - 004", "Mawar Extra V-Vip - 005" }));
+        coderoom.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Mawar Basic - 001", "Mawar Economy - 002", "Mawar Vip - 003", "Mawar V-Vip - 004", "Mawar Extra V-Vip - 005" }));
         coderoom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 coderoomActionPerformed(evt);
@@ -149,18 +149,8 @@ public class FormJavaPbo extends javax.swing.JFrame {
 
     private void coderoomActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_coderoomActionPerformed
         // Kode Kamar
-        if (coderoom.getSelectedIndex() == 0) {
-            jumlah_bayar.setText("");
-//            coderoom.setSelectedIndex(0);
-//            txtNamaPenyewa.setText("");
-            jenis_kamar.setText("");
-            xtarif.setText("");
-            lamainap.setText("");
-            diskon.setText("");
-            
-            
-        }
-        else if(coderoom.getSelectedIndex() == 1){
+        
+        if(coderoom.getSelectedIndex() == 1){
             JenisKamar = "Mawar Basic";
             Tarif = 400000;
         }
